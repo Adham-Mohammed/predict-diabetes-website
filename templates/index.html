@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./../static/style.css" />
+    <title>Diabetes Predictor</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Diabetes Predictor</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#breif" class="nav-link">Diabetes in nutshell</a>
+            </li>
+            <li class="nav-item">
+              <a href="#meet" class="nav-link">Meet the Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section id="breif" class="bg-white text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start" >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1> What is <span class="text-warning"> Diabetes </span>?</h1>
+            <p class="lead my-4">
+              According to Our World in Data website, nearly 8.81 percent of people worldwide are diabetic patients (type 1 or 2) in 2019, with nearly 12.54 percent in the Arab world.
+              Nearly 17.2 percent of the Egyptian population aged 20 to 79 is already diabetic.
+              We can tell whether you are a diabetic patient or not.
+            </p>
+            <a class="btn btn-primary btn-lg" href="InputForm.html" role="button"> Start Predicting </a>
+          </div>
+          <img class="img-fluid w-50 d-none d-sm-block" src="./../static/images/Diabetes.png" alt=""/>
+        </div>
+      </div>
+    </section>
+
+    <!--- Meet the Team --->
+    <section id="meet" class="p-5 bg-primary">
+      <div class="container">
+        <h2 class="text-center text-white">Meet the Team</h2>
+        <p class="lead text-center text-white mb-5">
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="./../static/images/Adham.jpeg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Adham Mohamed</h3>
+                <a href="https://www.facebook.com/adham.mohammed.129142"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="./../static/images/Mina.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Mina Azer</h3>
+                <a href="https://www.facebook.com/mina.fakhry.7"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="https://www.instagram.com/mina_fakhry99/"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="./../static/images/Omar.jpeg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Omar Mostafa</h3>
+                <a href="https://www.facebook.com/profile.php?id=100041576520113"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="./../static/images/Yehia.jpeg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Yehia Said</h3>
+                <p class="card-text">
+                </p>
+                <a href="https://twitter.com/YehiaSaidAhmed"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="https://www.facebook.com/CR7.Y07/"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="https://www.instagram.com/yahya_sead_706/"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2022 Team 9</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+    <script>
+      mapboxgl.accessToken =
+        'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [-71.060982, 42.35725],
+        zoom: 18,
+      })
+    </script>
+  </body>
+</html>
